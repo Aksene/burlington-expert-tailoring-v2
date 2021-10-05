@@ -157,6 +157,20 @@
     margin-left: 0.4rem;
   }
 
+  @media screen and (max-width: 430px) {
+    .topSubtitle-text-container::before {
+      content: "";
+      transform: translateY(-50%);
+      position: absolute;
+      top: 61.5%;
+    }
+    .topSubtitle-text-container::after {
+      content: "";
+      transform: translateY(-50%);
+      position: absolute;
+      top: 61.5%;
+    }
+  }
   @media screen and (max-width: 380px) {
     .topSubtitle-bg h1 {
       font-size: 3.3rem;

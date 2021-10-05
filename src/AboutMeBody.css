@@ -23,7 +23,7 @@
   display: grid;
   grid-template-areas:
     "aboutMe__body-subject"
-    "aboutMe__body-text";
+    "aboutMe__body-text-aboutMe";
   grid-template-columns: 0.5fr 1fr;
   width: 90%;
   padding-bottom: 10rem;
@@ -56,6 +56,7 @@
 }
 
 .aboutMe__body-aboutMe-text {
+  color: #665;
 }
 
 .aboutMe__body-grid h1 {
