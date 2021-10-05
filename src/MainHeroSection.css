@@ -285,4 +285,8 @@
     width: 115%;
     margin-left: -1.7rem;
   }
+
+  .bg img {
+    left: -56rem;
+  }
 }

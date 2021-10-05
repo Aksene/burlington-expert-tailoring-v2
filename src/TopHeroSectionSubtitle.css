@@ -170,7 +170,11 @@
       position: absolute;
       top: 61.5%;
     }
+    .topSubtitle-bg {
+      background-position: 70rem;
+    }
   }
+
   @media screen and (max-width: 380px) {
     .topSubtitle-bg h1 {
       font-size: 3.3rem;

@@ -81,6 +81,12 @@
   } */
 }
 
+@media screen and (max-width: 430px) {
+  .top-bg {
+    background-position: 70rem;
+  }
+}
+
 @media screen and (max-width: 390px) {
   .top-bg h1 {
     font-size: 4rem;
