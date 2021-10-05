@@ -1,0 +1,145 @@
+.services__body-container {
+  margin-left: auto;
+  white-space: pre-wrap;
+  font-family: proxima-nova, Helvetica, Arial, sans-serif;
+  /* VERY IMPORTANT*/
+  width: calc(100% - 20rem);
+  padding-bottom: 3rem;
+}
+
+.services__body-grid {
+  margin-left: 5rem;
+  width: 85%;
+}
+
+.services__body-table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.line-divider {
+  width: 100%;
+}
+
+.body-headers-grid {
+  padding-top: 4rem;
+  display: grid;
+  grid-template-areas:
+    "body-services-header"
+    "body-price-header";
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-rows: repeat(2, minmax(100px, auto)); */
+  width: 90%;
+}
+
+.body-headers-grid h1 {
+  padding-bottom: 1rem;
+  font-size: 2rem;
+  line-height: 1.33333;
+  font-weight: 430;
+  color: #393939;
+}
+
+.body-pants-hem-grid {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  display: grid;
+  grid-template-areas:
+    "body-services-header"
+    "body-price-header";
+  grid-template-columns: 1fr 1fr;
+  width: 90%;
+}
+
+.body-jacket-grid {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  display: grid;
+  grid-template-areas:
+    "body-services-header"
+    "body-price-header";
+  grid-template-columns: 1fr 1fr;
+  width: 90%;
+}
+
+.body-take-in-grid {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  display: grid;
+  grid-template-areas:
+    "body-services-header"
+    "body-price-header";
+  grid-template-columns: 1fr 1fr;
+  width: 90%;
+}
+
+.body-skirt-grid {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  display: grid;
+  grid-template-areas:
+    "body-services-header"
+    "body-price-header";
+  grid-template-columns: 1fr 1fr;
+  width: 90%;
+}
+
+.body-jean-grid {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  display: grid;
+  grid-template-areas:
+    "body-services-header"
+    "body-price-header";
+  grid-template-columns: 1fr 1fr;
+  width: 90%;
+}
+
+.body-else-grid {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  display: grid;
+  grid-template-areas:
+    "body-services-header"
+    "body-price-header";
+  grid-template-columns: 1fr 1fr;
+  width: 90%;
+}
+
+.services__body-table p1:nth-child(1) {
+  font-size: 1.6rem;
+  line-height: 1.33333;
+  font-weight: 330;
+  color: #393939;
+}
+
+.services__body-table p1:nth-child(2) {
+  color: #caac93;
+  font-family: "pt-serif", Times New Roman, serif;
+  font-style: italic;
+}
+
+@media screen and (max-width: 1200px) {
+  .services__body-grid {
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .services__body-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .body-jacket-grid {
+    gap: 0.5rem;
+  }
+
+  .services__body-grid {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+  }
+}

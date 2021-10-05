@@ -1,0 +1,240 @@
+.navbar {
+  list-style-type: none;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 18rem;
+  height: 100%;
+  position: fixed;
+  /* overflow: auto; PROBLEM!!!!! */
+  display: flex;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: "PT Sans", sans-serif;
+  background: url("images/Pattern2.jpeg") repeat;
+  z-index: 999;
+}
+
+.navbar::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  background-color: #d1c4afc2;
+}
+
+.navbar-container {
+  display: block;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+}
+
+.container {
+  z-index: 1;
+}
+
+.navbar-logo {
+  padding-top: 2rem;
+  margin: 0;
+  justify-self: start;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.8rem;
+
+  display: block;
+  align-items: center;
+}
+
+.navbar-icon {
+  width: 8rem;
+  height: 8rem;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.nav-menu {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  text-align: center;
+  margin-top: 12rem;
+  margin-left: 4rem;
+}
+
+.nav-menu-active {
+}
+
+.nav-item {
+  width: 18rem;
+  border-bottom: 2px solid transparent;
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: medium;
+}
+
+.navbar-slogan {
+  font-family: "Patrick Hand SC", cursive;
+  font-weight: bolder;
+}
+
+.nav-links:hover {
+  color: #b38965;
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.nav-links {
+  /* border: 1px solid blue; */
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  width: 17rem;
+  max-width: max-content;
+}
+
+.navbar-footer {
+  display: block;
+  position: fixed;
+  padding-left: 3.8rem;
+  padding-bottom: 1rem;
+  bottom: 0;
+  color: rgba(0, 0, 0, 0.521);
+}
+
+.credit {
+  font-size: small;
+  text-align: center;
+}
+.credit-link {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.521);
+}
+
+@media screen and (max-width: 900px) {
+  .NavbarItems {
+    position: relative;
+  }
+
+  .container {
+    width: 100%;
+  }
+  .navbar {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 91.5vh;
+    position: absolute;
+    top: 80px;
+    opacity: 1;
+    transition: all 0s ease;
+    visibility: hidden;
+  }
+
+  .nav-menu.active {
+    background: #d9d1c1;
+    margin-top: 5rem;
+    width: 100%;
+    top: 0;
+    right: 0;
+    transition: all 0.6s ease;
+    visibility: visible;
+    display: block;
+  }
+
+  .navbar-icon {
+    display: block;
+    position: absolute;
+    margin-top: -6px;
+    margin-left: 1rem;
+    height: 4rem;
+    width: 4rem;
+    top: 0;
+    left: 0;
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .nav-links {
+    flex: 1;
+    justify-content: start;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .nav-links:hover {
+    color: #f00946;
+    /* background-color: #b8ab98c2; */
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+  }
+
+  .nav-item:hover {
+    border: none;
+  }
+
+  .nav-item {
+    width: 100%;
+  }
+
+  .navbar-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(25%, 50%);
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .fa-times {
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  .nav-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+  }
+
+  .navbar-footer,
+  .navbar-slogan {
+    display: none;
+  }
+}

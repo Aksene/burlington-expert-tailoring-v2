@@ -1,0 +1,88 @@
+.services__top-container {
+  width: calc(100% - 20rem);
+  height: 300px;
+  overflow: auto;
+  margin-left: 18rem;
+  font-family: "PT Sans", sans-serif;
+  top: 0;
+  right: 0;
+  position: relative;
+}
+
+.top-bg {
+  position: relative;
+  top: 0;
+  right: 0;
+  background: url("images/Background.jpeg") repeat;
+  width: 100%;
+  height: 300px;
+  display: grid;
+}
+
+.top-bg::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  background-color: #0000008a;
+  backdrop-filter: blur(5.5px);
+}
+
+.top-text {
+  width: calc(100% - 20rem);
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  z-index: 888;
+  text-align: center;
+}
+
+.top-bg h1 {
+  color: #fff;
+  font-size: 5rem;
+  font-weight: 100;
+  top: 0;
+  font-family: PT Serif, Times New Roman, serif;
+}
+
+.section-subtitle {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 100;
+  top: 0;
+  margin-left: auto;
+  margin-top: auto;
+  font-family: PT Serif, Times New Roman, serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.top-text-container {
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 900px) {
+  .top-text {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .top-text {
+    width: 90%;
+  }
+  /* .top-bg h1 {
+    font-size: 4rem;
+  } */
+}
+
+@media screen and (max-width: 390px) {
+  .top-bg h1 {
+    font-size: 4rem;
+  }
+}
