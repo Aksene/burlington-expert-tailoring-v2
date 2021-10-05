@@ -279,3 +279,10 @@
     margin-left: -8.5rem;
   }
 }
+
+@media screen and (max-width: 430px) {
+  .grid-container {
+    width: 115%;
+    margin-left: -1.7rem;
+  }
+}
