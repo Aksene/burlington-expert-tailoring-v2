@@ -193,4 +193,10 @@
       top: 61.5%;
     }
   }
+
+  @media screen and (max-width: 320px) {
+    .topSubtitle-bg h1 {
+      font-size: 2.9rem;
+    }
+  }
 }

@@ -227,10 +227,12 @@
   }
 
   .right-arrow {
+    position: absolute;
     margin-right: -25rem;
   }
 
   .left-arrow {
+    position: absolute;
     margin-right: 25rem;
   }
   .aboutMe__body-aboutMe {
@@ -247,10 +249,12 @@
   }
 
   .right-arrowJazz {
+    position: absolute;
     margin-right: -25rem;
   }
 
   .left-arrowJazz {
+    position: absolute;
     margin-right: 25rem;
   }
   .aboutMe__body-hobby {
@@ -272,31 +276,33 @@
 
   .right-arrow {
     position: absolute;
-    left: 21rem;
+    left: 20.2rem;
   }
 
   .left-arrow {
     position: absolute;
-    left: -3.2rem;
+    left: -2.7rem;
   }
 
   .slider {
+    left: -0.2rem;
     margin-right: -1.8rem;
   }
 
   .right-arrowJazz {
     position: absolute;
-    left: 21rem;
+    left: 20.5rem;
   }
 
   .left-arrowJazz {
     position: absolute;
-    left: -2.8rem;
+    left: -2.4rem;
   }
 
   .sliderJazz {
     margin-top: 5rem;
-    margin-right: 3rem;
+    margin-right: 2rem;
+    left: -0.2rem;
   }
 }
 
@@ -323,15 +329,13 @@
   }
 
   .right-arrow {
-    top: 1rem;
-
-    margin-right: -15.8rem;
+    top: 25%;
+    left: 15.2rem;
   }
 
   .left-arrow {
     top: 1rem;
-
-    margin-right: 24rem;
+    left: -4.5rem;
   }
 
   .aboutMe__body-aboutMe-img {
@@ -339,20 +343,20 @@
   }
 
   .sliderJazz {
+    top: 6rem;
     margin-left: -1.3rem;
     padding-left: 2.5rem;
     width: 105%;
   }
 
   .right-arrowJazz {
-    top: -0.3rem;
-
-    margin-right: -19.5rem;
+    top: -25%;
+    left: 20rem;
   }
 
   .left-arrowJazz {
-    top: -0.4rem;
-    margin-right: 20rem;
+    top: -25%;
+    margin-left: 2rem;
   }
 
   .aboutMe__body-article {
@@ -372,7 +376,8 @@
   }
 
   .right-arrowJazz {
-    margin-right: -15rem;
+    top: -0.4rem;
+    left: 15.5rem;
   }
 
   .left-arrowJazz {
@@ -382,18 +387,19 @@
 
   .slider {
     margin-left: 2.5rem;
-    width: 90%;
+    width: 95%;
   }
 
   .right-arrow {
+    /* position: fixed; */
     top: 1rem;
 
-    margin-right: -12rem;
+    left: 12rem;
   }
 
   .left-arrow {
     top: 1rem;
 
-    margin-right: 20rem;
+    left: -4.7rem;
   }
 }

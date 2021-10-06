@@ -217,6 +217,20 @@ textarea {
     margin-left: 1rem;
   }
 }
+@media screen and (max-width: 415px) {
+  .contactMe__body-logo {
+    margin-top: -15rem;
+    width: 90%;
+    height: 40%;
+  }
+  .contactMe__body-subgrid {
+    margin-top: 13rem;
+  }
+
+  .contactMe__body-google-maps {
+    padding-right: 3rem;
+  }
+}
 
 @media screen and (max-width: 380px) {
   .contactMe__body-container {
@@ -227,6 +241,7 @@ textarea {
   .contactMe__body-google-maps {
     margin-left: 1rem;
   }
+
   .contactMe__body-footer {
     width: 80%;
     margin-left: 1rem;
